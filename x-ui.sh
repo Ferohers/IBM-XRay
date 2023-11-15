@@ -1,5 +1,5 @@
 #!/bin/bash
-############### x-ui-pro v1.0 @ github.com/GFW4Fun ##############
+############### IBM Tweaks on orginally 3X-UI PRO github.com/GFW4Fun ##############
 [[ $EUID -ne 0 ]] && echo "Run as root!" && exit 1
 if [[ -f /etc/redhat-release ]]; then Pak="yum"
 elif grep -Eqi "debian" /etc/issue; then Pak="apt"
